@@ -1,54 +1,42 @@
 header {
-    position: relative;
-    background-color: black;
-    height: 75vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
-}
-
-header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-    position: relative;
-    z-index: 2;
-}
-
-header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
-}
-
-.textPink {
-    color: #e83e8c
-}
-
-.bg-pink {
-    background: #e83e8c
+    margin-top: 7rem;
 }
 
 .fixed-top.scrolled {
-    background-color: rgb(15, 14, 14) !important;
+    background-color: #ffff !important;
     transition: background-color 200ms linear;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.textPink {
+    color: #2e488a
+}
+
+.bg-pink {
+    background: #2e488a
+}
+
+/* Google Map */
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+/* Form */
+.input-group-text {
+    padding: 8px !important;
 }
 
 .text-white-opacity {
@@ -69,3 +57,13 @@ header .overlay {
     text-decoration: none;
     cursor: pointer;
 }
+
+.breakLine {
+    width: 350px;
+    border-radius: 5px;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    height: 10px;
+    /* border-top: 5px solid #b43031; */
+  }
