@@ -7,16 +7,21 @@ header {
     transition: background-color 200ms linear;
 }
 
+.nav-link {
+    color: #020202 !important;
+}
+
 .text-justify {
     text-align: justify;
 }
 
 .textPink {
-    color: #2e488a
+    color: #020202;
+    text-shadow: 1.5px 1.5px #8F95DB;
 }
 
 .bg-pink {
-    background: #2e488a
+    background: #020202
 }
 
 /* Google Map */
